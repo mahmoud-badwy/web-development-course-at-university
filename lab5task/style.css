@@ -1,0 +1,12 @@
+body { font-family: Arial, sans-serif; background: #f7f8fc; margin: 0; padding: 30px; }
+.container { max-width: 500px; margin: 30px auto; background: white; padding: 25px; border-radius: 10px; }
+h1 { font-size: 25px; }
+.form { display: flex; gap: 10px; margin-bottom: 22px; }
+input { flex: 1; min-width: 0; padding: 12px; border: 1px solid #ccc; border-radius: 5px; }
+button { border: none; border-radius: 5px; cursor: pointer; }
+.form button { background: #3478e5; color: white; padding: 12px 16px; }
+.comment { display: flex; gap: 12px; margin: 15px 0; align-items: flex-start; }
+.avatar { background: #3181d7; color: white; border-radius: 50%; width: 36px; height: 36px; display: flex; align-items: center; justify-content: center; }
+.comment > div:last-child { background: #f1f1f1; border-radius: 8px; padding: 12px; flex: 1; }
+.comment p { margin: 8px 0; }
+.like { background: #fff; padding: 5px 10px; color: #c24d65; }
